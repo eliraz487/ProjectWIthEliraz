@@ -11,5 +11,6 @@
   --color-footer : rgb(2, 63, 154);
   --color-blog: #042c54;
   --color-text: #81AFDD;
-  --color-subtext: #FF8A71;
+  //--color-subtext: #FF8A71;
+  --color-subtext: #81ff00;
 }
