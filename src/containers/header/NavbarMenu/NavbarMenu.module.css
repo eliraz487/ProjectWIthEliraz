@@ -1,0 +1,59 @@
+/* NavbarMenu.module.css */
+.navbarMenu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.navbarMenu svg {
+    cursor: pointer;
+}
+
+.navbarMenuContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbarMenuContainer p {
+    margin: 1rem 0;
+}
+
+.navbarMenuContainerLinksSign {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .navbarLinksContainer {
+        display: none;
+    }
+
+    .navbarMenu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navbarMenuContainer {
+        top: 20px;
+    }
+
+    .navbarMenuContainerLinksSign {
+        display: block;
+    }
+
+    .navbarMenuContainer button {
+        margin-top: 10px;
+    }
+}

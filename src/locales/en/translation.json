@@ -1,0 +1,14 @@
+{
+  "header": "Welcome to my site",
+  "footer": "Thank you for visiting",
+  "login": "Login",
+  "logout": "Logout",
+  "register": "Register",
+  "app-name": "Let Discussion",
+  "Discussion_Topics": "Discussion Topics",
+  "Proposals": "Proposals",
+  "loginPageTitle": "Login Page",
+  "emailPlaceholder": "Email",
+  "passwordPlaceholder": "Password",
+  "forgotPasswordText": "Forgot my password"
+}

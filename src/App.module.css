@@ -1,0 +1,93 @@
+:global(*) {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+:global(body) {
+  background: var(--color-bg);
+}
+
+:global(a) {
+  color: unset;
+  text-decoration: none;
+}
+
+.gradientBg {
+  background: -moz-radial-gradient(circle at 3% 25%, var(--gradient-start), var(--gradient-end));
+  background: -webkit-radial-gradient(circle at 3% 25%, var(--gradient-start), var(--gradient-end));
+  background: -o-radial-gradient(circle at 3% 25%, var(--gradient-start), var(--gradient-end));
+  background: -ms-radial-gradient(circle at 3% 25%, var(--gradient-start), var(--gradient-end));
+  background: radial-gradient(circle at 3% 25%, var(--gradient-start), var(--gradient-end));
+}
+
+.content {
+  background: -moz-radial-gradient(circle at 3% 25%, var(--gradient-start), var(--gradient-end));
+  background: -webkit-radial-gradient(circle at 3% 25%, var(--gradient-start), var(--gradient-end));
+  background: -o-radial-gradient(circle at 3% 25%, var(--gradient-start), var(--gradient-end));
+  background: -ms-radial-gradient(circle at 3% 25%, var(--gradient-start), var(--gradient-end));
+  background: radial-gradient(circle at 50% 50%, var(--gradient-start), var(--gradient-end));
+}
+
+.gradientText {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sectionPadding {
+  padding: 4rem 6rem;
+}
+
+.sectionMargin {
+  margin: 4rem 6rem;
+}
+
+.scaleUpCenter {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sectionPadding {
+    padding: 4rem;
+  }
+
+  .sectionMargin {
+    margin: 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .sectionPadding {
+    padding: 4rem 2rem;
+  }
+
+  .sectionMargin {
+    margin: 4rem 2rem;
+  }  
+}

@@ -1,0 +1,14 @@
+{
+  "header": "ברוך הבא לאתר שלי",
+  "footer": "תודה על הביקור",
+  "login": "התחבר",
+  "logout": "התנתק",
+  "register": "הירשם",
+  "app-name": "let Discussion",
+  "Discussion_Topics": "כניסה",
+  "Proposals": "כניסה",
+  "loginPageTitle": "דף התחברות",
+  "emailPlaceholder": "אימייל",
+  "passwordPlaceholder": "סיסמה",
+  "forgotPasswordText": "שכחתי סיסמה"
+}

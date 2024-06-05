@@ -1,0 +1,23 @@
+/* Header.module.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.navbarLinks {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbarLinksLogo {
+    margin-right: 2rem;
+}
+
+.navbarLinksLogo img {
+    width: 62.56px;
+    height: 16.02px;
+}

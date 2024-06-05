@@ -1,0 +1,133 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loginContainer {
+  text-align: center;
+  background: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 450px;
+  transition: box-shadow 0.3s ease;
+}
+
+.loginContainer:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.loginContainer h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.inputField {
+  display: block;
+  margin: 15px auto;
+  padding: 15px;
+  width: 85%;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+  padding-left: 40px; /* Adjust padding for the toggle button */
+}
+
+.inputField:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.passwordContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggleButton {
+  position: absolute;
+  right: 45px; /* Position on the left side */
+  background: none;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #007bff;
+  outline: none;
+}
+
+.line {
+  margin: 20px 0;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+.forgotPasswordText {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 0 10px;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.forgotPasswordText:hover {
+  text-decoration: underline;
+}
+
+.loginButton {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginButton:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width: 1050px) {
+  .loginContainer {
+    width: 80%;
+    padding: 35px 25px;
+  }
+
+  .inputField {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .loginContainer {
+    width: 90%;
+    padding: 30px 20px;
+  }
+
+  .inputField {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .loginContainer {
+    width: 95%;
+    padding: 25px 15px;
+  }
+
+  .inputField {
+    width: 95%;
+  }
+}
